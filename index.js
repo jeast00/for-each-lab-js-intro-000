@@ -5,7 +5,7 @@ function iterativeLog (array) {
 }
 
 function iterate(callback) {
-  var array = ["Not Empty Array"];
+  var array = [8675309];
   array.forEach(callback => {
     return array;
   });
