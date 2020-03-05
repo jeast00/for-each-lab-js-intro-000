@@ -5,7 +5,7 @@ function iterativeLog (array) {
 }
 
 function iterate(callback) {
-  const array = ["Not Empty Array"];
+  var array = ["Not Empty Array"];
   array.forEach(callback => {
     return array;
   });
